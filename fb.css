@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 217, 217);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.main{
+    display: flex;
+}
+.logo{
+    font-size: 40px;
+    color: rgb(52, 52, 228);
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 95px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: bolder;
+    /* word-break: break-all; */
+}
+.p1{
+    font-size: 20px;
+    color: black;
+}
+.details{
+    background-color: whitesmoke;
+    /* text-align: center; */
+    width:450px;
+    border: solid thin;
+    border-color: rgba(196, 194, 196, 0.5);
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 200px;
+    height: 390px;
+    padding: 10px;
+    margin-top:70px;
+    margin-bottom:50px;
+    /* justify-content: right; */
+    justify-content: center;
+
+    float: right;
+
+
+}
+input{
+    margin: 20px;
+    text-align: center;
+    width:350px;
+    border: solid thin;
+    border-color: rgba(102, 96, 102, 0.5);
+    border-radius: 5px;
+    height: 50px;
+
+
+}
+button{
+    width:350px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 228);
+    /* color: blue; */
+    border: none;
+    justify-content: center;
+
+    
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+.a{
+    margin-left: 130px;
+    /* font-weight: bold; */
+    color: blue;
+}
+.a:hover{
+    
+    text-decoration: underline
+}
+.span{
+    border: solid green;
+    background-color: green;
+    border-width: 10px;
+    width: 200%;
+    height: 5px;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 125px;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+}
+
+.span:hover{
+    text-decoration: underline;
+    background-color: green;
+}
+.span>a{
+    padding-top: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+.page{
+    text-align: right;
+    margin-left: 20px;
+
+    
+}
+.page>a{
+    font-weight: bold;
+    color: black;
+}
+.page>a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+}
